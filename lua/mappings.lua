@@ -22,4 +22,11 @@ map("i", "<C-/>", function()
   vim.cmd.startinsert { eol = true }
 end)
 
+map(
+  "n",
+  "<leader>tt",
+  ":lua require('base46').toggle_transparency()<CR>",
+  { noremap = true, silent = true, desc = "Toggle Background Transparency" }
+)
+
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
