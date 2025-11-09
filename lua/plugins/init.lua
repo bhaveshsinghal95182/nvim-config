@@ -40,7 +40,6 @@ return {
         "javascript",
         "rust",
         "tsx",
-        "jsx",
         "fish",
         "toml",
       },
