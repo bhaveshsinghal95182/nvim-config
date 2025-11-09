@@ -41,6 +41,8 @@ return {
         "rust",
         "tsx",
         "jsx",
+        "fish",
+        "toml",
       },
     },
   },
